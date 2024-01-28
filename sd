@@ -40,6 +40,6 @@ while true do
     for _, CFrameEnd in ipairs(CFrameEnds) do
         local tween = TweenService:Create(HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
         tween:Play()
-        wait(4) -- Wait for 4 seconds before moving to the next CFrameEnd
+        wait(0.1) -- Wait for 4 seconds before moving to the next CFrameEnd
     end
 end
